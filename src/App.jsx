@@ -73,7 +73,7 @@ function App() {
     } else {
       setWrong((atualWrong) => [...atualWrong, normalized]);
 
-      setGuesses(9);
+      setGuesses(2);
     }
     console.log(guessedLetters);
     console.log(Wrong);
