@@ -1,11 +1,11 @@
 import styles from "./Start.module.css";
 
-function Start() {
+function Start({ startGame }) {
   return (
     <div className={styles.start}>
       <h1>secret Word</h1>
       <p>clique no botão abaixo para comecar a jogar</p>
-      <button>start</button>
+      <button onClick={startGame}>start</button>
     </div>
   );
 }

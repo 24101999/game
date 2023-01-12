@@ -1,10 +1,10 @@
- const Dado  =  {
-    carro : [ "Motor" ,  "Porta" ,  "Capô" ,  "Pneu" ,  "Antena" ] ,
-    fruta : [ "Banana" ,  "Maçã" ,  "Pêra" ,  "Mamão" ,  "Laranja" ] ,
-    corpo : [ "Braço" ,  "Perna" ,  "Cérebro" ,  "Pescoço" ,  "Olhos" ] ,
-    computador : [ "Mouse" ,  "Teclado" ,  "Monitor" ,  "Gabinete" ] ,
-    programação : [ "Linguagem" ,  "Framework" ,  "JavaScript" ,  "React" ] ,
-    alimento : [ "Arroz" ,  "Feijão" ,  "Carne" ,  "Leite" ,  "Ovo" ] ,
-  } ;
+ const dado = {
+    carro: ["Motor", "Porta", "Capô", "Pneu", "Antena"],
+    fruta: ["Banana", "Maçã", "Pêra", "Mamão", "Laranja"],
+    corpo: ["Braço", "Perna", "Cérebro", "Pescoço", "Olhos"],
+    computador: ["Mouse", "Teclado", "Monitor", "Gabinete"],
+    programação: ["Linguagem", "Framework", "JavaScript", "React"],
+    alimento: ["Arroz", "Feijão", "Carne", "Leite", "Ovo"],
+ };
 
-  export default Dado
+  export default dado
